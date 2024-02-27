@@ -1,0 +1,16 @@
+#itemList {
+    list-style: none;
+    padding: 0;
+}
+
+#itemList li {
+    padding: 10px;
+    margin: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#itemList li:hover {
+    background-color: #c0c0c0;
+}
